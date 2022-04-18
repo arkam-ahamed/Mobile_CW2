@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SearchByTitle">
+    <TextView
+        android:id="@+id/tv_actors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search by Actors name"
+        android:textSize="18dp"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_text_actors"
+        android:layout_width="25mm"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/search_actor"
+        android:layout_width="40mm"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
+</LinearLayout>
